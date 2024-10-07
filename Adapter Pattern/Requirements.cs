@@ -53,9 +53,9 @@ namespace Adapter_Pattern
         }
         public override string ToString()
         {
-            return ($"GPU {gpuGb}GB\n" +
-                $"HDD {HDDGb}GB\n" +
-                $"RAM {RAMGb}GB\n" +
+            return ($"GPU {gpuGb}Gb\n" +
+                $"HDD {HDDGb}Gb\n" +
+                $"RAM {RAMGb}Gb\n" +
                 $"CPU {cpuGhz}GHZ\n" +
                 $"Cores {coresNum}\n");
         }
