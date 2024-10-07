@@ -54,7 +54,7 @@ namespace Adapter_Pattern
 
         public Requirements getRequirements()
         {
-            int gpuMemoryInGB = (int)Math.Ceiling((double)computerGame.getMinimumGpuMemoryInMegabytes() / 1024);
+            int gpuMemoryInGB = (int)Math.Ceiling((double)computerGame.getMinimumGpuMemoryInMegabytes() / 1024 / 8);
             return new Requirements(
                 gpuMemoryInGB,
                 computerGame.getDiskSpaceNeededInGB(),
